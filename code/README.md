@@ -27,7 +27,10 @@ different datasets to be downloaded and prepared.
   from the [ALOS World 3D 30m DEM](10.1109/IGARSS.2018.8518360)
 - a triangular irregular network of the subglacial overdeepening  
 
-The For more details, please see the header of the code file.
+For more details, please see the header of the code file.
+Some data is not provided here due to storage space limitations, 
+but can be easily produced by downloading the base data from the links 
+in the description above and using basic GIS software tools. 
 
 ### Required software
 The python script was developed relying heavily on the `arcpy` package af ArcGIS 10.7. 
@@ -37,15 +40,16 @@ Therefore, in order to work with `arcpy`, the code is written in Python 2.7.
 
 ### Preprocessing
 Some preprocessing steps are not included in the scripts as they heavily depend on the employed
-platform, folder structure, and data. Also, some input data is not provided here
-due toHowever, they are very straightforward:
+platform, folder structure, and data. However, they are very straightforward:
+- a folder containing the centerlines produced by OGGM
+- folders containing the results of the OGGM runs (one folder for each GCM)
+- a folder for every glacier with a subglacial overdeepening (named after its RGI-ID),
+  containing the extracted GCM results for the respective glacier in every SSP scenario in csv-format
+- the RGI glacier outline
+- an empty folder for the data to be stored in (please make sure that enough disk space is available -
+  depending on the RGI region several GB of data will be stored in the process)
 
-
-- subtract the glacier ice thickness data from the DEM to get a DEM of the subglacial topography
-- clip the bedrock raster of each glacier using the RGI outlines
-- project to a suitable coordinate system (we used the Albers equal-area projection)
-
-The required folder structure is described in the python script.
+The required folder structure is also described in the python script.
 
 #### Citation
 You are free to use this code and the dataset in your research. 
