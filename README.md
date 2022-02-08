@@ -24,27 +24,17 @@ Frontiers in Earth Sciences as part of the Research Topic
 
 Furian, W., Maussion, F., & Schneider, C. (2022). 
 Projected 21st century glacial lake evolution in High Mountain Asia. 
-Front. Earth Sci., *Seiten und richtige DOI* [doi:10.1017/jog.2021.18](https://doi.org/10.1017/jog.2021.18).
-
-*in dieses oder ein anderes README einbauen* 
-[Link zu Fabis OGGM-Daten](https://cluster.klima.uni-bremen.de/~fmaussion/lt_archive/run_hma_hr_cmip6_v1)
+Front. Earth Sci.
 
 ### Ressources
 This study builds on several resources and previously published datasets:
-- [Farinotti et al. (2019): A consensus estimate for the 
-  ice thickness distribution of all glaciers on Earth, 
-  In Nat. Geosci. 12 (3), pp. 168–173. 
-  ](https://doi.org/10.1038/s41561-019-0300-3)
-- [RGI Consortium (2017): Randolph Glacier Inventory - 
-  A Dataset of Global Glacier Outlines: Version 6.0, 
-  Global Land Ice Measurements from Space Initiative.
-  ](https://doi.org/10.7265/N5-RGI-60)
-- [Takaku et al. (2018): Quality Improvements of ‘AW3D’ 
-  Global Dsm Derived from Alos Prism. In : Proc. IGARSS 
-  2018](10.1109/IGARSS.2018.8518360)
+
+- the [Open Global Glacier Model (OGGM)](https.//oggm.org) for the glacier modeling
+- the specific OGGM outputs used in our study are available [here](https://cluster.klima.uni-bremen.de/~fmaussion/lt_archive/run_hma_hr_cmip6_v1)
+- glacier outlines from the [Randolph Glacier Inventory](https://doi.org/10.7265/N5-RGI-60)
 
 ### Improving the dataset
-Please use the *richtigen Link* [Issues](https://github.com/cryotools/subglacial-overdeepenings/issues)
+Please use the [Issues](https://github.com/cryotools/glacial-lake-evolution/issues)
 section to report any errors. If you would like to share your own improvements to the 
 code or the shapefiles, please fork the repository, commit your changes, 
 and file a merge request.
