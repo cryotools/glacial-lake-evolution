@@ -32,6 +32,7 @@ This study builds on several resources and previously published datasets:
 - the [Open Global Glacier Model (OGGM)](https.//oggm.org) for the glacier modeling
 - the specific OGGM outputs used in our study are available [here](https://cluster.klima.uni-bremen.de/~fmaussion/lt_archive/run_hma_hr_cmip6_v1)
 - glacier outlines from the [Randolph Glacier Inventory](https://doi.org/10.7265/N5-RGI-60)
+- the inventory of subglacial overdeepenings in HMA (by [Furian et al., 2021](https://doi.org/10.1017/jog.2021.18))
 
 ### Improving the dataset
 Please use the [Issues](https://github.com/cryotools/glacial-lake-evolution/issues)

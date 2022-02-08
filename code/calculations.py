@@ -22,8 +22,8 @@
       (https://www.glims.org/RGI/)
     - To investigate future lake development, a dataset containing the extent of potential future lakes is needed.
       We used the dataset developed in this publication: https://doi.org/10.1017/jog.2021.18 (Furian et al., 2021).
-    - Also needed is a DEM of the glacier - for studies in high mountain areas we recommend using the ALOS World 3D 30m
-      DEM by JAXA.
+    - Also needed is a DEM of the glacier bedrock - for studies in high mountain areas we recommend using the ALOS World 3D 30m
+      DEM by JAXA and subtracting from it the ice thickness dataset by Farinotti et al. (2019).
     - With the latter input data, a triangular irregular network (TIN) can be calculated which is used
       to quantify potential lake volume.
 
@@ -31,7 +31,7 @@
         - a folder containing the centerlines produced by OGGM
         - folders containing the results of the OGGM runs (one folder for each GCM)
         - a folder for every glacier with a subglacial overdeepening (named after its RGI-ID),
-          containing the extracted GCM results for this glacier in every SSP scenario in csv-format
+          containing the extracted GCM results for the respective glacier in every SSP scenario in csv-format
         - the RGI glacier shapefile
         - an empty folder for the data to be stored in (please make sure that enough disk space is available -
           depending on the RGI region several GB of data will be stored in the process)
