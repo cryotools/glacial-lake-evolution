@@ -5,7 +5,7 @@
 
     This is the main code file of the second work package of the project
     'Future glacial lakes in High Mountain Asia - Modeling and Risk Analysis' (GLAMoR).
-    It was used for the main analyses in the study by Furian et al. (2022).
+    It was used for the main analyses of the Frontiers in Earth Science publication by Furian et al. (2022).
     The script was written by W. Furian.
 
     With this script, it is possible to use the results of a glacier model
@@ -24,10 +24,10 @@
       We used the dataset developed in this publication: https://doi.org/10.1017/jog.2021.18 (Furian et al., 2021).
     - Also needed is a DEM of the glacier bedrock - for studies in high mountain areas we recommend using the ALOS World 3D 30m
       DEM by JAXA and subtracting from it the ice thickness dataset by Farinotti et al. (2019).
-    - With the latter input data, a triangular irregular network (TIN) can be calculated which is used
+    - With the latter input data, a triangular irregular network (TIN) can be calculated and then used
       to quantify potential lake volume.
 
-    The required data structure should follow these guidelines:
+    The required folder structure should follow these guidelines:
         - a folder containing the centerlines produced by OGGM
         - folders containing the results of the OGGM runs (one folder for each GCM)
         - a folder for every glacier with a subglacial overdeepening (named after its RGI-ID),
@@ -40,7 +40,7 @@
     It needs the following ArcGIS extensions to be enabled:
     3D Analyst, Spatial Analyst and Geostatistical Analyst.
 
-    The code is available on github at https://github.com/cryotools/glacial-lake-evolution
+    This code is available on github at https://github.com/cryotools/glacial-lake-evolution
     For more information on this work package see the README.
     For more information on the project as a whole see https://hu-berlin.de/glamor.
 
