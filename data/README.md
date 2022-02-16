@@ -28,8 +28,8 @@ Front. Earth Sci. (DOI)
 You are free to use this dataset in your research. 
 If you do, please refer to the release you used, e.g., for v1.01:
 
-Furian, Wilhelm (2022): Projected 21st century glacial lake evolution in High Mountain Asia. 
-v1.01. Zenodo. DOI: 10.5281/zenodo.6024450
+Furian, Wilhelm (2022): Projected 21st century glacial lake evolution 
+in High Mountain Asia. A dataset in shapefile format. v1.01. Zenodo. DOI: 10.5281/zenodo.6024450
 
 [![DOI](https://zenodo.org/badge/457083839.svg)](https://zenodo.org/badge/latestdoi/457083839)
 
