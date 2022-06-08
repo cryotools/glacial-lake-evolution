@@ -1,5 +1,6 @@
 ## Subglacial overdeepenings
-This dataset contains the results of a study published in Frontiers of Earth Sciences (DOI)
+This dataset contains the results of a study published in 
+[Frontiers in Earth Sciences](10.3389/feart.2022.821798)
 by Furian et al. (2022) and provides information on glacial lake development in
 High Mountain Asia until 2100 following four different SSP scenarios.
 
@@ -20,9 +21,9 @@ section.
 For more insight into the calculation of the parameters, 
 please see the corresponding publication in Frontiers of Earth Sciences:
 
-Furian, W., Maussion, F., & Schneider, C. (2022). 
-Projected 21st century glacial lake evolution in High Mountain Asia. 
-Front. Earth Sci. (DOI)
+*Furian W, Maussion F and Schneider C (2022) Projected 21st-Century Glacial
+Lake Evolution in High Mountain Asia. 
+Front. Earth Sci. 10:821798. doi: 10.3389/feart.2022.821798*
 
 #### Citation
 You are free to use this dataset in your research. 

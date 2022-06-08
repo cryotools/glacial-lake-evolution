@@ -18,13 +18,13 @@ of currently or potentially dangerous glacial lakes.
 The related study is part of the [GLAMoR](https://hu.berlin/glamor) project 
 (Future **G**lacial **L**akes in High Mountain **A**sia -
 **Mo**deling and **R**isk Analysis) at the Geography Department of 
-Humboldt-Universität zu Berlin. The results of the study will soon be published in 
+Humboldt-Universität zu Berlin. The results of the study are published in 
 Frontiers in Earth Sciences as part of the Research Topic 
 "Lake Changes, Drivers and Consequences in High Mountain Asia".
 
-Furian, W., Maussion, F., & Schneider, C. (2022). 
-Projected 21st century glacial lake evolution in High Mountain Asia. 
-Front. Earth Sci.
+*Furian W, Maussion F and Schneider C (2022) Projected 21st-Century Glacial
+Lake Evolution in High Mountain Asia. 
+Front. Earth Sci. 10:821798. doi: 10.3389/feart.2022.821798*
 
 ### Ressources
 This study builds on several resources and previously published datasets:
